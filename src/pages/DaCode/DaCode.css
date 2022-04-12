@@ -1,0 +1,60 @@
+.teamCards{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eef5f4;
+    
+}
+
+.divclass{
+    margin-top: -90px;
+    margin-bottom: 70px;
+}
+
+.cards2{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.cards3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card>img{
+    width: 30px;
+}
+
+@media screen and (max-width: 425px){
+    .cards2{
+        flex-direction: column;
+       
+    }
+    
+    .cards3{
+        flex-direction: column;
+    }
+    
+    .cards4{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .divclass{
+        margin: 90px;
+        margin-right: 30px;
+        margin-left: 60px;
+    }
+
+    .card>img{
+        width: 30px;
+    }
+}

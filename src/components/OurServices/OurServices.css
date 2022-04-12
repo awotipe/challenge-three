@@ -1,0 +1,222 @@
+.section2{
+    width: 100%;
+    background-color: #e9fbf8;
+    background-repeat: no-repeat;
+    height: 150vh;
+    
+    
+}
+
+.sect2container{
+    background-image: url(../../assets/Group56.svg);
+    background-position: bottom right, 40%;
+    background-repeat: no-repeat;
+    background-size: 15em;
+    width: 100%;
+    padding-bottom: 80px;
+    
+}
+.site{
+    width:250px;
+    height: 300px;
+    background-color:rgb(253, 249, 249);
+    margin-right: 30px;
+    border-radius: 10px;
+    background-size: 50px;
+    background-position:12%;
+    background-repeat:no-repeat;
+    box-shadow: 0px 1px 60px 0px rgba(7, 0, 59, 0.12);   
+}
+
+.three-cards{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 80%;
+    
+}
+
+.three-cards2{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 80%;
+    
+}
+
+.service{
+    justify-content: center;
+    display: flex;
+    padding-top: 40px; 
+    text-align: center;
+    font-family: 'Circular Std Bold';
+    font-size: 50px;
+     
+}
+.lorem-top{
+    justify-content: center;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Circular Std Bold';
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 40%;
+    
+    
+}
+.content{
+    margin: 50px 30px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+.lorem{
+    font-family: 'Circular Std Bold';
+    color:#636363;
+    padding-bottom: 30px;
+    font-size: 12px;
+    font-weight: normal;
+    
+
+
+}
+.siteheading{
+    font-family: 'Circular Std Bold';
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: bolder;
+    
+
+}
+.img{
+    width: 30%;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    z-index: 1;
+    
+}
+
+
+.ellipse{
+    width: 30%;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    z-index: 1;
+    
+}
+
+.img>img{
+    width:100%;
+    height: 100%;
+}
+
+.readmore{
+    display: flex;
+    /* width: 10%; */
+    align-items: flex;
+    font-family: 'Circular Std Bold';
+    color:#7bcde3;
+    font-size: smaller;
+    font-weight:lighter;
+
+    
+}
+.arrow{
+    padding-left: 0.5rem;
+    
+}
+
+.upperboarder{
+    width: 100%;
+    height: 2%;
+    background-color: #60E1CB;
+    border-radius: 10px 10px 0px 0px ;
+    box-shadow: 0px 1px 80px 0px #7bcde3;
+}
+
+@media screen and (max-width: 768px){
+    .three-cards{
+        width: 90%;
+        
+    }
+    
+    .three-cards2{
+        width: 90%;
+    }
+
+    .lorem-top{
+        padding-top: 10px;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .section2{
+        height: 300vh;
+    
+    }
+    .three-cards{
+        width: 95%;
+        flex-direction: column;
+    }
+    
+    .three-cards2{
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .service{
+        padding-top: 40px; 
+        font-size: 30px;
+         
+    }
+    .lorem-top{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 12px;
+        width: 50%;
+    }
+
+    .content{
+        margin: 20px;
+        
+    }
+
+    .site{
+        width:200px;
+        height: 250px; 
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .lorem{
+        padding-bottom: 20px;
+        font-size: 12px;
+    }
+
+    .siteheading{
+        padding-bottom: 15px;
+        font-size: 12px;
+    }
+
+    .img{
+        padding-bottom: 20px;
+        padding-right: 20px;
+       
+        
+    }
+    
+}
