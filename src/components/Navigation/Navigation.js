@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Navigation.css';
+import Hamburger from '../../assets/icons8-hamburger-menu.gif';
 
 
 const Navigation = () => {
@@ -27,6 +28,7 @@ const Navigation = () => {
         </li>
         <button class="header_btn">Request a quote</button>
       </ul>
+        <img className="hamburg" src={Hamburger} alt=""/> 
     </nav>
   );
 };

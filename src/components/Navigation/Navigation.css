@@ -42,9 +42,55 @@
     margin-top: -4px;
 }
 
+.header_btn:hover{
+    background-color:#114d5e;
+    color:#7bcde3;
+}
+
+.hamburg{
+    width: 30px;
+}
+
+@media screen and (max-width: 1440px){
+    .hamburg{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .nav_link{
+        font-size: 12px;
+    }
+    
+    .header_btn{
+        height:25px;;
+        width: 110px;
+        font-size: 10px;
+    }
+
+    .nav_link-home {
+        font-size: 12px;
+    }
+
+    .nav_li:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    .hamburg{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 425px){
     .nav_ul {
        display: none;
     }
+
+    .hamburg{
+        display: block;
+        width: 20px;
+    }
 }
+
+
 

@@ -28,6 +28,12 @@
     box-shadow: 0px 1px 60px 0px rgba(7, 0, 59, 0.12);   
 }
 
+.site:hover{
+    background-color:rgb(8, 59, 88);
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    transform: rotate(180deg);
+}
+
 .three-cards{
     display: flex;
     justify-content: space-between;
@@ -80,8 +86,11 @@
     display: flex;
     flex-direction: column;
     
-    
-    
+}
+
+.content:hover{
+    transform: rotate(180deg);
+    color: white;
 }
 .lorem{
     font-family: 'Circular Std Bold';
@@ -89,17 +98,21 @@
     padding-bottom: 30px;
     font-size: 12px;
     font-weight: normal;
-    
 
+}
 
+.lorem:hover{
+    color: white;
 }
 .siteheading{
     font-family: 'Circular Std Bold';
     padding-bottom: 20px;
     font-size: 14px;
     font-weight: bolder;
-    
+}
 
+.siteheading:hover{
+    color: white;
 }
 .img{
     width: 30%;
@@ -125,15 +138,13 @@
 
 .readmore{
     display: flex;
-    /* width: 10%; */
     align-items: flex;
     font-family: 'Circular Std Bold';
     color:#7bcde3;
     font-size: smaller;
     font-weight:lighter;
-
-    
 }
+
 .arrow{
     padding-left: 0.5rem;
     

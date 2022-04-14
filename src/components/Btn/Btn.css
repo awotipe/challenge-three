@@ -11,6 +11,11 @@
     
 }
 
+.enter-btns:hover{
+    background-color: white;
+    color: black;
+    box-shadow:  0px 25px 35px 0px #666666;
+}
 @media screen and (max-width: 425px){
     .enter-btns{
         width: 200px;

@@ -1,4 +1,3 @@
-// import { Link } from 'react-router-dom';
 import './Portfolio.css';
 import ImgaePlaceHolder0 from '../../assets/ImgaePlaceHolder0.png';
 import ImgaePlaceHolder1 from '../../assets/ImgaePlaceHolder1.png';
