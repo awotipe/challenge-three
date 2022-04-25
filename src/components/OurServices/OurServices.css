@@ -3,8 +3,6 @@
     background-color: #e9fbf8;
     background-repeat: no-repeat;
     height: 150vh;
-    
-    
 }
 
 .sect2container{
@@ -17,8 +15,8 @@
     
 }
 .site{
-    width:250px;
-    height: 300px;
+    width:280px;
+    height: 320px;
     background-color:rgb(253, 249, 249);
     margin-right: 30px;
     border-radius: 10px;
@@ -29,10 +27,9 @@
 }
 
 .site:hover{
-    background-color:rgb(8, 59, 88);
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
-    transform: rotate(180deg);
+    background-color:#e9fbf8;
 }
+
 
 .three-cards{
     display: flex;
@@ -42,8 +39,8 @@
     align-items: center;
     margin-bottom: 20px;
     width: 80%;
-    
 }
+
 
 .three-cards2{
     display: flex;
@@ -77,46 +74,34 @@
     align-items: center;
     margin: auto;
     width: 40%;
-    
-    
 }
 .content{
-    margin: 50px 30px;
+    margin: 60px 40px;
     padding-top: 10px;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
+
 }
 
-.content:hover{
-    transform: rotate(180deg);
-    color: white;
-}
 .lorem{
     font-family: 'Circular Std Bold';
-    color:#636363;
+    color:black;
     padding-bottom: 30px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
-
 }
 
-.lorem:hover{
-    color: white;
-}
 .siteheading{
     font-family: 'Circular Std Bold';
     padding-bottom: 20px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bolder;
+    color: black;
 }
 
-.siteheading:hover{
-    color: white;
-}
 .img{
     width: 30%;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     padding-right: 20px;
     z-index: 1;
     
@@ -159,6 +144,9 @@
 }
 
 @media screen and (max-width: 768px){
+    .section2{
+        height: 170vh;
+    }
     .three-cards{
         width: 90%;
         
@@ -172,11 +160,28 @@
         padding-top: 10px;
         width: 60%;
     }
+
+    .lorem{
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    
+    .siteheading{
+        font-size: 14px;
+        padding-bottom: 10px;
+      
+    }
+
+    .img{
+        width: 50%;
+        margin-top: 0;
+        
+    }
 }
 
 @media screen and (max-width: 425px){
     .section2{
-        height: 300vh;
+        height: 310vh;
     
     }
     .three-cards{

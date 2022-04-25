@@ -1,7 +1,6 @@
 .section3{
     width: 100%;
     height: 100vh;
-    /* position: absolute;  */
     margin: auto;
     background-image: linear-gradient(to bottom, white 55%, #60E1CB 45%);    
    
@@ -83,13 +82,13 @@
     font-family: 'Circular Std Bold';
     color:#7bcde3;
     font-size: 14px;
-    
 }
 
 .portfolio{
     font-family: 'Circular Std Bold';
     color:#7bcde3;
 }
+
 .our{
     font-size: 35px;
     font-family: 'Circular Std Bold';
@@ -108,10 +107,14 @@
     margin-left: 30px;
     background-color: #fff;
 }
+
+.btnopt:hover{
+    color: black;
+    background-color: #7bcde3;
+}
 .down-btn{
     width: 120px;
     height: 40px;
-    /* position: absolute; */
     border-radius: 30px;
     border: none;
     border-color: white;
@@ -134,7 +137,7 @@
 
 @media screen and (max-width: 768px){
     .down-btn{
-        margin-top:  135px;
+        margin-top:  80px;
     }
 }
 
@@ -153,7 +156,7 @@
     }
 
     .section3{
-        height: 140vh; 
+        height: 160vh; 
     }
 
     .our{
@@ -182,6 +185,6 @@
     }
 
     .down-btn{
-        margin-top:  50px;
+        margin-top:  150px;
     }
 }

@@ -67,27 +67,40 @@ strong{
     border-radius: 100px;
     background-color: #60E1CB;
     border: none;
-    box-shadow:  0px 50px 60px 0px #60E1CB;
+    box-shadow:  0px 40px 50px 0px #60E1CB;
     font-family: 'Circular Std Bold';
     font-size: large;
     color: white;
-
 }
+
+.btn1:hover{
+    color: #60E1CB;
+    border-color: rgb(194, 194, 194);
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid;
+}
+
 .btn2{
+    margin-right: 20px;
     width: 160px;
     height: 55px;
     font-weight: 100px;
-    border: 1px solid;
     border-radius: 100px;
-    background-color: transparent;
-    border-color: rgb(194, 194, 194);
+    background-color: #60E1CB;
+    border: none;
     font-family: 'Circular Std Bold';
     font-size: large;
-    color: #60E1CB;
+    color: white;
 }
 
-
-
+.btn2:hover{
+    color: #60E1CB;
+    border-color: rgb(194, 194, 194);
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid;
+}
 
 .section4{
     width: 100%;
@@ -317,8 +330,6 @@ strong{
     margin-bottom: 20px;
 }
 .sit{
-    /* width:250px;
-    height: 200px; */
     background-color:white;
     margin-right: 0px;
     border-radius: 10px;
@@ -358,6 +369,12 @@ strong{
     background-color: transparent;
 }
 
+.btnseeAll:hover{
+    color: black;
+    border-color: none;
+    background-color: #60E1CB;
+}
+
 @media screen and (max-width: 768px){
     .images{
         margin-left: 15%;
@@ -374,6 +391,19 @@ strong{
 
     .flex1{
         margin-left: 50px;
+    }
+
+    .section7{
+        height: 90vh;
+        
+    }
+
+    .blogpar{
+        font-size: 0.8em;
+    }
+
+    .blog{
+        font-size: 1.5em;
     }
 
 }

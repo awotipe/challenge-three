@@ -4,7 +4,7 @@ import classes from './Header.module.css';
 import { withRouter } from 'react-router-dom';
 
 
-const Header = (props) => {
+const Header = () => {
 
   return (
     <header className={classes.header}>
@@ -18,4 +18,4 @@ const Header = (props) => {
   );
 };
 
-export default withRouter(Header);
+export default withRouter (Header);

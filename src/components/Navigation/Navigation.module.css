@@ -1,0 +1,160 @@
+.allNav{
+    display: flex;
+}
+
+.nav_ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_li {
+    margin-right: 20px;
+}
+
+.nav_link{
+    text-decoration: none;
+    color: #60E1CB;
+    font-size: 16px;
+    font-style: bold;
+    font-weight: 900;
+    font-family: 'Circular Std Bold';
+}
+
+.nav_link:hover{
+    color: black;
+    font-style: bold;
+}
+
+.header_btn{
+    background-color:#7bcde3;
+    height:30px;;
+    width: 120px;
+    border-radius: 25px;
+    font-family: 'Circular Std Bold';
+    font-size: 12px;
+    color:white;
+    border:none;
+    margin-left: 10px;
+    margin-top: -4px;
+}
+
+.header_btn:hover{
+    border-radius: 30px;
+    border: 1px solid;
+    color: black;
+    border-color: #60E1CB;
+    background-color: white;
+}
+
+.nav{
+    display: flex;
+}
+
+.navMenu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+  .hideBar {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 2rem;
+    color: #fff;
+    display: none;
+  }
+  .bar {
+    background: transparent;
+    border: none;
+    display: none;
+  }
+
+@media screen and (max-width: 768px){
+    .nav_link{
+        font-size: 12px;
+    }
+    
+    .header_btn{
+        height:25px;;
+        width: 110px;
+        font-size: 10px;
+    }
+
+
+    .nav_li{
+        margin-right: 15px;
+    }
+    .hideBar {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        font-size: 2rem;
+        color: #fff;
+        display: none;
+      }
+      .bar {
+        background: transparent;
+        border: none;
+        display: none;
+      }
+
+}
+
+@media screen and (max-width: 425px){
+    .bar {
+        display: block;
+      }
+
+    .header_btn{
+        display: none;
+    }
+
+
+    .header .allNav {
+        flex-direction: column;
+        position: absolute ;
+        height: 60vh;
+        width: 70vw;
+        z-index: 2;
+        top: 0;
+        right: 70px;
+        transform: translateX(70px);
+        background: rgba(28, 165, 184, 0.8);
+        backdrop-filter: blur(5px);
+        border-radius: 0px 0px 0px 20px;
+        transition: transform 0.5s ease-in;
+      }
+      .nav_ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .allNav nav a{
+        margin: 2px 0px;
+        width: 100px;
+        height: 90px;
+        color: #fff;
+        line-height: 55px;
+        font-size: 14px;
+      }
+
+       .hideBar {
+        display: block;
+      }
+
+      .allNav2 > nav{
+        display: none;
+      }
+
+
+}
+
+
+

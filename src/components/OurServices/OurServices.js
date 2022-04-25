@@ -7,7 +7,7 @@ import Magnifying from '../../assets/magnifying-glass.svg';
 import Startup from '../../assets/startup.svg';
 import Layers from '../../assets/layers.svg';
 
-const OurServices = ({}) => {
+const OurServices = () => {
   return (
  <div className="section2">
  <div className="sect2container">
@@ -17,7 +17,7 @@ const OurServices = ({}) => {
      tempor invidunt ut labore et.
    </p>
    
-   <div className=" all-cards"> 
+   <div className="all-cards"> 
      <div className="three-cards">     
      <div className="site">
        <div className="upperboarder"></div>
